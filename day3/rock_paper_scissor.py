@@ -34,4 +34,4 @@ else:
     if user_choice == computer_choice+1:
         print("You win")
     else:
-        print("You lose")
+        print("You loses")
