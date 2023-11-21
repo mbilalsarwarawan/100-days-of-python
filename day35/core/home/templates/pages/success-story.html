@@ -9,5 +9,21 @@
 </head>
 <body>
 <h1>Hello My name is Bilal Awan. A django developer.</h1>
+{{fruits}}
+
+
+<table border="1">
+
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    {% for fruit in fruits %}
+    <tr>
+        <td>{{fruit.fruit}}</td>
+        <td>{{fruit.color}}</td>
+    </tr>
+    {% endfor %}
+</table>
 </body>
 </html>

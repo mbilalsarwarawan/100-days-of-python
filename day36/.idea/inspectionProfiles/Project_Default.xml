@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.unescape" />
+          <option value="day34.bookscraper.spiders.bookspider.bookscraper" />
+          <option value="BookItem" />
+          <option value="day34.bookscraper.pipelines.bookscraper" />
+          <option value="day34.bookscraper.pipelines.*" />
+          <option value="day35.core.core.urls.home" />
+          <option value="day35.core.core.urls.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
